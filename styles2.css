@@ -1,5 +1,5 @@
 .calculadora {
-    background-color: hsl(288, 77%, 25%); 
+    background-color: hsl(8, 13, 19); 
     padding: 20px;
     border-radius: 10px;
     margin-left: 40px;
@@ -9,14 +9,14 @@
 #caixa {
     width: 100%;
     height: 50px;
-    background-color:#cceb78;
+    background-color:#d7e4b3;
     font-size: 24px;
-    text-align: right;
-    padding: 5px;
+    text-align: center;
+    padding-right: 100px;
     box-sizing: border-box;
     margin-bottom: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 70px;
 }
 
 .botoes {
@@ -38,4 +38,110 @@ button {
 
 button:active {
     background-color: #260936;
+    color: white;
+}
+#caixa2 {
+    width: 45%;
+    height: 50px;
+    background-color:#d7e4b3;
+    font-size: 24px;
+    text-align: center;
+    padding-right: 100px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#LM12{
+    font-size: 23px;
+    color:#69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+#lista{
+     font-size: 23px;
+    color: #85f153;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+#LM13 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 18px;
+    font-size: 20px;
+    cursor: round;
+    border: none;
+    border-radius: 5px;
+    background-color:#cceb78;
+    clip-path: circle(50% 50%);
+}
+#LM14 {
+    font-size: 23px;
+    color: #69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: -30px;
+}
+.container{
+    text-align:center;
+    padding:30px;
+    border-radius:10px;
+}
+
+button{
+    margin:10px;
+    padding:10px 20px;
+    background-color:#cceb78;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#260936;
+    color:white;
+}
+
+p{
+    margin:20px;
+    font-size:18px;
+}
+#imagem {
+    width: 400px;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+#imagem:hover {
+    opacity: 0.5;
+}
+label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #69bf41;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+#caixa3 {
+    width: 45%;
+    height: 50px;
+    background-color:#d7e4b3;
+    font-size: 24px;
+    text-align: center;
+    padding-right: 100px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+#resultado {
+    font-size: 23px;
+    color: #69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-top: 20px;
 }

@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(8, 13, 19);
+    font-family: 'Roboto', sans-serif;
+
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+ nav ul li a {
+    text-decoration: none;
+    color: #69bf41;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+@keyframes mover {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}
+
+.LM0 {
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.LM0:hover {
+  font-size: 28px;
+}
+header {
+    background-color: #32162c;
+    margin: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: -30-px;
+    font-size: 95px;
+    color: #69bf41;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 3px;
+}
+#LM1{
+    padding-bottom: 20px;
+    font-size: 23px;
+    color: #69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#LM2 {
+    font-size: 23px;
+    color: #69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-bottom: 50px;
+    text-align: center;
+}
+img {
+    padding-left: 25px;
+    width: 200px;
+    margin-bottom: 50px;
+    max-width: 50%;
+}
+#LM4 {
+    font-size: 23px;
+    color: #69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#LM6 {
+    font-size: 23px;
+    color: #69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#LM7 {
+    font-size: 23px;
+    color: #69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+#LM8 {
+    font-size: 23px;
+    color: #69bf41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+#LM10{
+   width: 500px;
+   border-radius: 95%;
+   border-color: #69bf41;
+   border: 100px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+#LM11{
+   font-size: 23px;
+   color: #69bf41;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: left;
+}
