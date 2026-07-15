@@ -24,18 +24,33 @@ function iniciarRelogio() {
 
 }
 
+let cliques = 0;
+
 function trocarImagem() {
 
     alert("Me clicou!");
+
+    cliques++;
+
+
     const imagem = document.getElementById("imagem");
 
-    if (imagem.src.includes("emoji feliz.jpg")) {
-        imagem.src = "emoji feliz.jpg";
+    if (imagem.src.includes("emoji%20feliz.jpg")) {
+        imagem.src = "emoji%20infeliz.jpg";
 
     } else {
 
-        imagem.src = "emoji infeliz.jpg";
+        imagem.src = "emoji%20feliz.jpg";
 
     }
 
+     if (cliques === 5) {
+        alert("PARA DE ME CLICAR!!!");
+    }
+
+    if (cliques === 10) {
+        alert("AAAAAAAAH");
+    imagem.src = "emoji evaporando.gif";
+    cliques = 0;
+}
 }
